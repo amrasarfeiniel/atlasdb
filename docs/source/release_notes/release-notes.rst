@@ -44,7 +44,11 @@ v0.22.0
     *    - |improved|
          - The ``clean-cass-locks-state`` CLI now clears the lock instead of dropping the locks table.
            (`Pull Request <https://github.com/palantir/atlasdb/pull/1056>`__)
-
+    *    - |improved|
+         - Additional debugging available for those receiving 'name must be no longer than 1500 bytes' errors.
+           (`Pull Request <https://github.com/palantir/atlasdb/pull/1117>`__)
+    *    - |breaking|
+         - Cell.validateNameValid is now private
 
 .. <<<<------------------------------------------------------------------------------------------------------------->>>>
 
