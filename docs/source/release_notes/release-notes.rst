@@ -46,6 +46,10 @@ develop
            Now the CLI sets the schema mutation lock to a special "cleared" value to be more consistent with how real lockholders behave.
            (`Pull Request <https://github.com/palantir/atlasdb/pull/1056>`__)
 
+    *    - |deprecated|
+         - ``TableReference.createUnsafe`` is now deprecated. ``createWithEmptyNamespace`` or ``createFromFullyQualifiedName`` should be used instead.
+           (`Pull Request <https://github.com/palantir/atlasdb/pull/1121>`__)
+
 .. <<<<------------------------------------------------------------------------------------------------------------->>>>
 
 =======
